@@ -1,0 +1,20 @@
+.icon-bar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto; /*Смуги прокрутки*/
+}
+.icon-bar a {
+    float: left; /*Плаваючі посилання*/
+    text-align: center;
+    width: 20%;
+    font-size: 40px;
+    padding: 12px 0; /* Поля навколо іконок*/
+    transition: all 0.3s ease; /*Ефект переходу*/
+    color: white;
+}
+.icon-bar a:hover { /*Стиль елемента при наведенні на нього курсора*/
+    background-color:springgreen;
+}
+.active {
+    background-color: steelblue;
+}
